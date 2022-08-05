@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!------ twitter-bootstrap -------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <!------ Font Awesome 5.15.4 ------------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!------ CSS ---------------------------->
+    <link rel="stylesheet" href="./css/feed.css">
+    <!------ jquery ------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <!------ Bootstrap 5 -------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+    crossorigin="anonymous">
+    <!------ Bootstrap Icons ---------------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!------ Scripts ------------------------>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>feed-main</title>
+</head>
+
+<body>
+    <main>
+        <!------ Container Start ------>
+        <div class="container">
+            <div class="row">
+    
+                <!------ Sidenav Start ----------->
+                <div class="feed-sidenav col-3">
+                    <!------ Navbar Start ----------->
+                    <nav class="navbar navbar-expand-lg mx-0 d-flex flex-column">
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasSideNavbar">
+                            <div class="offcanvas-header">
+                                <button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body d-block px-2 px-lg-0">
+                        
+                            <!------ Card Start --------->
+                            <div class="card overflow-hidden">
+                                <!------ Imagem de fundo ---->
+                                <div class="h-50px" 
+                                style="background-image: url(imagens/bg-card.jpg); 
+                                background-position: center; background-size: 
+                                cover; background-repeat: no-repeat;">
+                                </div>
+                                <!------ Card body Start ---->
+                                <div class="card-body pt-0">
+                                    <div class="text-center">
+                                        <!------ Foto perfil ---->
+                                        <div class="mb-3 mt-3">
+                                            <a href="#">
+                                                <img class="rounded border border-white border-3" 
+                                                src="imagens/adolescente2.jpg" width="150px"
+                                                alt="Foto de perfil">
+                                            </a>
+                                        </div>
+                                        <!------ Info ---------->
+                                        <h5 class="mb-1">
+                                            <a href="#">Letícia Peixoto</a>
+                                        </h5>
+                                        <small>Estudante do Ensino Médio</small>
+                                        <p class="mt-2">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing flit. Dicta, 
+                                            pariatur ratione nisi voluptas a sunt.
+                                        </p>
+                                        <!-- Stats user Start -->
+                                        <div class="gap-1 gap-xl-3 justify-content-center d-flex">
+                                            <!-- Stats user Item --->
+                                            <div>
+                                                <h6 class="m-1 mb-0">177</h6>
+                                                <small>Publicações</small>
+                                            </div>
+                                            
+                                            <!-- Stats user Item --->
+                                            <div>
+                                                <h6 class="m-1 mb-0">3.7k</h6>
+                                                <small>Seguidores</small>
+                                            </div>
+                                            
+                                            <!-- Stats user Item --->
+                                            <div>
+                                                <h6 class="m-1 mb-0">378</h6>
+                                                <small>Seguindo</small>
+                                            </div>
+                                        </div>
+                                        <!-- Stats user End -->
+                                    </div>
+                                    <!------ Side nav Start -->
+                                    <ul class="nav nav-link-secondary flex-column fw-bold gap-2 mt-1">
+                                        <li class="nav-item">
+                                            <span>Feed</span>
+                                        </li>
+                                        <li class="nav-item">
+                                            <span>Conexões</span>
+                                        </li>
+                                        <li class="nav-item">
+                                            <span>Últimas notícias</span>
+                                        </li>
+                                        <li class="nav-item">
+                                            <span>Grupos</span>
+                                        </li>
+                                        <li class="nav-item">
+                                            <span>Notificações</span>
+                                        </li>
+                                        <li class="nav-item">
+                                            <span>Configurações</span>
+                                        </li>
+                                    </ul>
+                                    <!------ Side nav End -->
+                                </div>
+                                <!------ Card body End ---->
+
+                                <!------ Card Footer ------>
+                                <div class="card-footer text-center py-2">
+                                    <a class="btn btn-link btn-sm" href="#">
+                                        Perfil
+                                    </a>
+                                </div>
+                            </div>
+                            <!------ Card End ------>
+
+                            <!------ Helper link Start -->
+                            <ul class="nav small justify-content-center">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Sobre</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Suporte</a>
+                                </li>
+                            </ul>
+                            <!------ Helper link End --->
+
+                            <!------ Copyright --------->
+                            <p class="small text-center">
+                                "©2022"
+                                <a class="text-body" target="_blank" href="#">Study.me</a>
+                            </p>
+                            </div>
+                        </div>
+                    </nav>
+                    <!------ Navbar End ----------->
+                </div>
+                <!------ Sidenav End ----------->
+                
+                <!------ Main content Start ------>
+                <div class="feed-main col-md-8 col-lg-6 gap4">
+
+                    <!-- Share feed START -->
+                    <div class="card card-body mt-2">
+                        <div class="d-flex mb-3">
+                            <!-- Avatar -->
+                            <div class="avatar avatar-xs me-2">
+                                <a href="#"><img class="avatar-img rounded-circle" 
+                                src="./imagens/adolescente2.jpg" width="50px" alt="Foto de perfil"></a>
+                            </div>
+                            <!-- Post input -->
+                            <textarea class="form-control border-0" rows="2" 
+                            placeholder="Faça sua publicação..." style="height: 61px;">
+                            </textarea>
+                        </div>
+                        
+                        <!-- Share feed toolbar START -->
+                        <ul class="nav nav-pills nav-stack small fw-normal">
+                            <li class="nav-item">
+                                <a class="nav-link bg-light py-1 px-2 mb-0" href="#!" 
+                                data-bs-toggle="modal" data-bs-target="#feedActionPhoto">
+                                <i class="bi bi-image-fill text-success pe-2"></i>Foto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link bg-light py-1 px-2 mb-0" href="#!" 
+                                data-bs-toggle="modal" data-bs-target="#feedActionVideo">
+                                <i class="bi bi-camera-reels-fill text-info pe-2"></i>Video</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link bg-light py-1 px-2 mb-0" 
+                                data-bs-toggle="modal" data-bs-target="#modalCreateEvents">
+                                <i class="bi bi-calendar2-event-fill text-danger pe-2"></i>Event</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link bg-light py-1 px-2 mb-0" href="#!" 
+                                data-bs-toggle="modal" data-bs-target="#modalCreateFeed">
+                                <i class="bi bi-emoji-smile-fill text-warning pe-2">
+                                </i>Estou me sentindo...</a>
+                            </li>
+                            <li class="nav-item dropdown ms-lg-auto">
+                                <a class="nav-link bg-light py-1 px-2 mb-0" href="#" 
+                                id="feedActionShare" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-three-dots"></i></a>
+                            </li>
+
+                        </ul>
+                        <!-- Share feed toolbar End -->
+
+                    </div>
+                    <!-- Share feed End -->
+                </div>
+                <!------ Main content End -------->
+    
+                <!------ Right sidebar Start ----->
+                <div class="feed-rsidebar col-lg-3">
+                    Right sidebar
+                </div>
+                <!------ Right sidebar End ------->
+            </div>
+            <!------ Row End ------------------>
+        </div>
+        <!------ Container End ------>
+    </main>
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
