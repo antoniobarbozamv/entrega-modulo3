@@ -115,7 +115,7 @@ li {
     z-index:10;
     background:#fff;
     width:100%;
-    text-shadow: black 0.1em 0.1em 0.2em;
+    text-shadow: rgba(0, 0, 0, 0.192) 0.1em 0.1em 0.2em;
     border-bottom: 0.8px solid rgba(255, 255, 255, 0.308);
     margin-top: 0;
     margin: 0;
