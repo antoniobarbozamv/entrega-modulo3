@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!------ CSS ---------------------------->
     <link rel="stylesheet" href="./css/style-ifr.css">
-    <link rel="stylesheet" href="./css/style-form.css">
     <link rel="stylesheet" href="./css/estilo.css">
     <!------ Falta unificar CSS do profile -->
     <!------ jquery ------------------------->
@@ -31,19 +30,13 @@
     <title>Study.me </title>
 </head>
 
-<body style="background-color:#e4eef6;">
+<body>
 
     <!------ Navbar ----------------------> 
     <header>
-        <nav style="font-family:Josefin Sans, sans-serif;" 
-        class="navbar navbar-expand-sm navbar-light bg-light mb-5">
-            <a href="./feed.html" class="navbar-brand mb-0 h1">
-                <img 
-                class="d-inline-block align-top"
-                src="./imagens/iconstudyme.jpeg"
-                alt="ícone da Study.me, uma coruja branca em um fundo azul"
-                width="30" height="30"/>
-                Study.me
+        <div class="container-flex">
+        <nav style="font-family:Josefin Sans, sans-serif;" class="navbar navbar-expand-sm navbar-light navbar-custom ">
+            <a href="./feed.html" class="navbar-brand mb-0 h1"><i class="fas fa-graduation-cap"></i> Study.me
             </a>
             
             <button
@@ -59,57 +52,23 @@
             
             <div class="collapse navbar-collapse d-md-flex flex-row-reverse bd-highlight flex-wrap" id="navbarNav">
                 <ul class="navbar-nav flex-wrap">
-                <li class="nav-item">
-                    <a href="#sobrenos" class="nav-link">
-                    Sobre nós
-                    </a>
-                </li>
+                    <li class="nav-item">
+                        <a href="#sobrenos" class="nav-link">
+                        Sobre nós
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./login.html"><i class=" fa fa-fw fa-user-circle"></i>  Entrar/Cadastre-se</a>
+                    </li>
                 </ul>
             </div>
-        </nav>  
+        </nav> 
     </header>
 
-    <!------ Form de login ------------------------------------------> 
-    <div class="container text-center">
-        <main class="form-signin w-100 m-auto">
-            <form>
-                <!------ Consertar o fundo da img iconstudyme.jpeg -->  
-                <!------ Título -------------------------------------> 
-                <img class="mb-4" src="./imagens/iconstudyme.jpeg"
-                alt="ícone da Study.me, uma coruja branca em um fundo azul" 
-                width="72" height="57">
-                <h1 class="h3 mb-3 fw-normal">Login</h1>
-                
-                <div class="form-floating">
-                    <input type="email" class="form-control mb-2" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Email</label>
-                </div>
-                
-                <div class="form-floating">
-                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                    <label for="floatingPassword">Senha</label>
-                </div>
 
-                <div class="checkbox mb-3">
-                    <label>
-                    <input type="checkbox" value="remember-me"> Remember me
-                    </label>
-                </div>
-                    <a class="btn btn-primary text-center" href="./feed.html" role="button">
-                    Entrar
-                    </a>
-                
-                <p class="mt-5 mb-3 text-muted">© Study.me</p>
-                <p>Não tem uma conta?</p>
-                <a href="./register.html">Cadastre-se</a>
-            </form>
-        </main>
-    </div>
-    <!------ Form de login ------------------------------------->
-    
     <!------ Section "Tipos de perfis" ------------------------->
-    <div class="container-fluid p-5 back1">
-        <div class="container text-light">
+    <div class="container-fluid p-5 ">
+        <div class="container text-dark">
             <div class="row" style="text-align:center">
                 <h3 class="col-12 mb-3">Entre Como:</h3>
                 <div class="col-sm">
